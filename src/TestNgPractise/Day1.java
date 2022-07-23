@@ -19,6 +19,12 @@ public class Day1 {
 		System.out.println(urlname);
 	}
 	
+	@Test
+	public void Don()
+	{
+		System.out.println("I am Don");
+	}
+	
 	@AfterTest
 	public void Before()
 	{
