@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-21T22:37:56 GMT-07:00" name="Loan Department" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="545">
+    <groups>
+      <group name="smoke">
+        <method signature="Day1.Demo()[pri:0, instance:TestNgPractise.Day1@bef2d72]" name="Demo" class="TestNgPractise.Day1"/>
+        <method signature="Day2.Practical()[pri:0, instance:TestNgPractise.Day2@49b0b76]" name="Practical" class="TestNgPractise.Day2"/>
+        <method signature="Day3.logout()[pri:0, instance:TestNgPractise.Day3@769f71a9]" name="logout" class="TestNgPractise.Day3"/>
+        <method signature="Day4.Appium()[pri:0, instance:TestNgPractise.Day4@4c9f8c13]" name="Appium" class="TestNgPractise.Day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-07-21T22:37:56 GMT-07:00" name="Personal Loan" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="303">
+      <class name="TestNgPractise.Day1">
+        <test-method signature="Demo()[pri:0, instance:TestNgPractise.Day1@bef2d72]" started-at="2022-07-21T22:37:56 GMT-07:00" name="Demo" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondClass(java.lang.String)[pri:0, instance:TestNgPractise.Day1@bef2d72]" started-at="2022-07-21T22:37:56 GMT-07:00" name="SecondClass" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondClass -->
+        <test-method is-config="true" signature="Before()[pri:0, instance:TestNgPractise.Day1@bef2d72]" started-at="2022-07-21T22:37:56 GMT-07:00" name="Before" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+      </class> <!-- TestNgPractise.Day1 -->
+      <class name="TestNgPractise.Day2">
+        <test-method signature="Practical()[pri:0, instance:TestNgPractise.Day2@49b0b76]" started-at="2022-07-21T22:37:56 GMT-07:00" name="Practical" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Practical -->
+      </class> <!-- TestNgPractise.Day2 -->
+      <class name="TestNgPractise.Day3">
+        <test-method signature="login()[pri:0, instance:TestNgPractise.Day3@769f71a9]" started-at="2022-07-21T22:37:56 GMT-07:00" name="login" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:TestNgPractise.Day3@769f71a9]" started-at="2022-07-21T22:37:56 GMT-07:00" name="logout" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestNgPractise.Day3 -->
+      <class name="TestNgPractise.Day4">
+        <test-method signature="Appium()[pri:0, instance:TestNgPractise.Day4@4c9f8c13]" started-at="2022-07-21T22:37:56 GMT-07:00" name="Appium" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Appium -->
+        <test-method signature="Selenium()[pri:0, instance:TestNgPractise.Day4@4c9f8c13]" started-at="2022-07-21T22:37:56 GMT-07:00" name="Selenium" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selenium -->
+        <test-method is-config="true" signature="Before()[pri:0, instance:TestNgPractise.Day4@4c9f8c13]" started-at="2022-07-21T22:37:56 GMT-07:00" name="Before" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+      </class> <!-- TestNgPractise.Day4 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-07-21T22:37:56 GMT-07:00" name="Home Loan" finished-at="2022-07-21T22:37:56 GMT-07:00" duration-ms="3">
+    </test> <!-- Home Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
